@@ -1,21 +1,4 @@
-//
-// Copyright 2015 Google Inc.
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-//
 
-// FirebaseDemo_ESP8266 is a sample that demo the different functions
-// of the FirebaseArduino API.
 
 #include <ESP8266WiFi.h>
 #include <FirebaseArduino.h>
@@ -24,9 +7,9 @@
 
 // Set these to run example.
 #define FIREBASE_HOST "homeautomation-72a40.firebaseio.com"
-#define FIREBASE_AUTH "Y7PZn8qZQ1mqqjY3dcBuEAQzAqqfU8wUzO6onkoY"
-#define WIFI_SSID "farhan"
-#define WIFI_PASSWORD "farhan12345"
+#define FIREBASE_AUTH "Y7PZn8qZQ1mqqjY3dcBuEAQzAqqfU8wUzO6*****"
+#define WIFI_SSID "ssidname"
+#define WIFI_PASSWORD "password"
 
 int pinDHT11 = 2;
 SimpleDHT11 dht11;
